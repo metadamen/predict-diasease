@@ -39,5 +39,18 @@ else:
 
 if st.button("Predict"):
     model = joblib.load("readmission_model.pkl")  # previously saved
+    print("Expected number of features:", model.n_features_in_)
+    # Example if model expects 5 features:
+    pred = model.predict([[age, bill, admissions, gender, glucose_level]])
+    input_df = pd.DataFrame([{
+    "age": age,
+    "bill": bill,
+    "admissions": admissions,
+    "gender": gender,
+    "glucose_level": glucose_level
+}])
+
+pred = model.predict(input_df)
+
     pred = model.predict([[age, bill, admissions]])
     st.success(f"Prediction: {'Readmitted' if pred[0]==1 else 'Not Readmitted'}")
