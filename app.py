@@ -11,7 +11,7 @@ import joblib
 st.title("🏥 Hospital Management -Predict Disease")
 
 # Upload data
-data = pd.read_excel("hospital_data.xlsx")
+data = pd.read_csv("hospital_data.csv")
 st.sidebar.header("Filters")
 dept = st.sidebar.selectbox("Select Department", data["Department"].unique())
 
@@ -30,14 +30,14 @@ age = st.slider("Age", 0, 100, 50)
 admissions = st.number_input("Previous Admissions", 0, 10, 1)
 bill = st.number_input("Treatment Cost", 0, 50000, 10000)
 
-if os.path.exists("model.pkl"):
-    model = joblib.load("model.pkl")
+if os.path.exists("readmission_model.pkl"):
+    model = joblib.load("readmission_model.pkl")
 else:
     print("Model file not found.")
     # Optionally, raise an error or fallback logic
 
 
 if st.button("Predict"):
-    model = joblib.load("model.pkl")  # previously saved
+    model = joblib.load("readmission_model.pkl")  # previously saved
     pred = model.predict([[age, bill, admissions]])
     st.success(f"Prediction: {'Readmitted' if pred[0]==1 else 'Not Readmitted'}")
