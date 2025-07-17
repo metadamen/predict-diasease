@@ -51,6 +51,11 @@ if st.button("Predict"):
 }])
 
 pred = model.predict(input_df)
+model.feature_names = ["age", "bill", "admissions", "gender", "glucose_level"]
+with open("model.pkl", "wb") as f:
+    pickle.dump(model, f)
+print(model.feature_names)
+
 
     pred = model.predict([[age, bill, admissions]])
     st.success(f"Prediction: {'Readmitted' if pred[0]==1 else 'Not Readmitted'}")
