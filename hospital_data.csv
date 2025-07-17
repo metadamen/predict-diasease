@@ -1,0 +1,101 @@
+Patient_ID,Name,Age,Gender,Department,Admission_Date,Discharge_Date,Diagnosis,Billing,Readmitted
+P001,John Fernandez,21,Female,Cardiology,2025-04-12,2025-04-24,Stroke,33658,No
+P002,Keith Rodriguez,20,Female,Orthopedics,2025-07-08,2025-07-15,Migraine,30675,Yes
+P003,Craig Davis,77,Female,Cardiology,2025-03-05,2025-03-07,Fracture,12991,No
+P004,Tyrone Williamson,37,Male,Oncology,2025-05-06,2025-05-23,Hypertension,36120,No
+P005,Travis Harris,34,Male,Cardiology,2025-05-19,2025-05-25,Stroke,15946,Yes
+P006,Kayla Hunt,75,Female,Oncology,2025-05-15,2025-05-25,Stroke,3265,No
+P007,Gwendolyn Lopez,2,Female,Orthopedics,2025-04-13,2025-04-30,Hypertension,33349,Yes
+P008,Mr. Aaron Carr,50,Female,General Surgery,2025-02-16,2025-03-07,Migraine,5184,No
+P009,Erica Mcdonald,87,Male,Cardiology,2025-05-31,2025-06-08,Migraine,28184,No
+P010,Robert Thornton,5,Male,Oncology,2025-02-19,2025-02-22,Stroke,17390,Yes
+P011,Bryan Hall,26,Female,Orthopedics,2025-04-05,2025-04-08,Cancer,27030,No
+P012,Matthew Tran,63,Male,Oncology,2025-07-07,2025-07-11,Migraine,14002,Yes
+P013,Samantha Martinez,25,Female,Cardiology,2025-06-12,2025-06-17,Infection,10615,No
+P014,Dylan Vaughan,6,Female,Pediatrics,2025-07-09,2025-07-25,Stroke,20829,No
+P015,Brittany Acevedo,7,Male,General Surgery,2025-01-23,2025-01-31,Cancer,38245,Yes
+P016,Alan Clarke,54,Female,Cardiology,2025-04-13,2025-05-01,Migraine,11860,Yes
+P017,Kathy Moore,25,Male,Pediatrics,2025-03-19,2025-03-27,Stroke,21352,Yes
+P018,Benjamin Manning,58,Male,Cardiology,2025-04-18,2025-04-25,Hypertension,22564,Yes
+P019,Lisa Buchanan,81,Male,Oncology,2025-06-29,2025-07-07,Stroke,19139,Yes
+P020,James Sullivan,4,Male,Pediatrics,2025-01-24,2025-01-26,Infection,31539,Yes
+P021,Karen Taylor,32,Male,Neurology,2025-01-24,2025-02-08,Migraine,22520,Yes
+P022,Helen Gilbert,65,Female,Cardiology,2025-05-21,2025-06-10,Cancer,4997,No
+P023,Katherine Burke,56,Female,Neurology,2025-05-21,2025-05-27,Hypertension,28062,No
+P024,Christopher Owens,56,Male,General Surgery,2025-03-18,2025-03-27,Stroke,28656,No
+P025,Glenn Mendoza,9,Male,General Surgery,2025-06-10,2025-06-25,Hypertension,32800,Yes
+P026,Christian Johnston,75,Female,General Surgery,2025-06-04,2025-06-20,Hypertension,15359,No
+P027,Jordan Anderson,4,Female,Cardiology,2025-02-07,2025-02-21,Fracture,3022,No
+P028,Mrs. Denise Davis,88,Female,Neurology,2025-05-20,2025-06-01,Fracture,29002,Yes
+P029,Daniel Allen,60,Female,Neurology,2025-01-15,2025-01-19,Fracture,9317,No
+P030,Dawn Rodriguez,87,Male,Neurology,2025-04-27,2025-05-14,Hypertension,12836,No
+P031,Tiffany Singh,57,Female,Orthopedics,2025-01-28,2025-02-01,Fracture,19716,No
+P032,Donald Robertson,36,Female,Cardiology,2025-05-16,2025-05-28,Migraine,36845,Yes
+P033,Justin Watson,20,Female,General Surgery,2025-07-10,2025-07-28,Stroke,9313,Yes
+P034,Karen Wells,28,Female,Cardiology,2025-03-04,2025-03-24,Infection,30667,Yes
+P035,Sarah Castaneda,50,Female,Pediatrics,2025-05-19,2025-05-25,Migraine,22371,Yes
+P036,Amanda Wagner,49,Female,Oncology,2025-05-23,2025-06-06,Migraine,38830,Yes
+P037,Amber Krueger,2,Male,General Surgery,2025-07-11,2025-07-14,Stroke,5621,Yes
+P038,Kevin Garcia,53,Female,Orthopedics,2025-05-30,2025-06-15,Fracture,9914,No
+P039,Theresa York,1,Female,Neurology,2025-06-22,2025-07-04,Cancer,6199,No
+P040,Nathaniel Bray,62,Male,Orthopedics,2025-03-05,2025-03-10,Cancer,4481,Yes
+P041,Maria Salazar,47,Male,General Surgery,2025-03-02,2025-03-20,Cancer,25598,No
+P042,Thomas Anthony,8,Female,Oncology,2025-06-27,2025-07-12,Cancer,22222,Yes
+P043,Susan Oliver,85,Male,Pediatrics,2025-04-28,2025-05-08,Hypertension,23563,Yes
+P044,Joshua Cervantes,20,Male,General Surgery,2025-02-15,2025-03-04,Migraine,22477,No
+P045,Christopher Wyatt,78,Male,Pediatrics,2025-07-15,2025-07-26,Cancer,29934,No
+P046,John Bennett,25,Male,Oncology,2025-03-20,2025-03-22,Migraine,25729,Yes
+P047,Matthew Oneal,15,Male,Orthopedics,2025-02-27,2025-03-07,Migraine,17690,No
+P048,Michael Jones,50,Male,Oncology,2025-03-02,2025-03-15,Hypertension,26485,No
+P049,Robert Norris,8,Male,Orthopedics,2025-05-31,2025-06-15,Stroke,26635,Yes
+P050,Anna Walker,14,Male,Cardiology,2025-01-19,2025-02-06,Migraine,15847,Yes
+P051,Rebecca Johnson,26,Male,Neurology,2025-03-27,2025-04-09,Stroke,10398,No
+P052,Logan Snyder,3,Male,General Surgery,2025-03-01,2025-03-05,Migraine,8126,No
+P053,Angela Wolf,14,Male,Oncology,2025-05-26,2025-06-02,Migraine,17134,Yes
+P054,Danielle Mason,20,Male,Cardiology,2025-05-18,2025-06-06,Stroke,6588,Yes
+P055,Christopher Hampton,67,Male,Cardiology,2025-02-19,2025-03-10,Infection,28695,No
+P056,Nicole Mack,88,Male,General Surgery,2025-01-30,2025-02-19,Cancer,19968,No
+P057,Elizabeth Delgado,66,Male,Oncology,2025-06-30,2025-07-12,Cancer,14069,Yes
+P058,Heather Perez,10,Male,General Surgery,2025-04-15,2025-04-19,Cancer,38703,No
+P059,Todd Cox,27,Female,General Surgery,2025-07-06,2025-07-10,Hypertension,33145,No
+P060,Laura Mata,10,Male,Neurology,2025-04-16,2025-05-02,Cancer,37769,No
+P061,Melinda Wilson,29,Male,Orthopedics,2025-03-18,2025-04-05,Stroke,10375,Yes
+P062,Roberta Morrison,27,Female,Pediatrics,2025-03-24,2025-04-06,Migraine,21648,No
+P063,Brandon Everett,59,Female,Orthopedics,2025-05-19,2025-06-08,Hypertension,16443,No
+P064,Stephen Taylor,59,Male,Neurology,2025-01-15,2025-01-25,Stroke,13084,Yes
+P065,Timothy Lewis,56,Female,Orthopedics,2025-04-29,2025-05-04,Stroke,13672,Yes
+P066,Thomas Graham,78,Female,Oncology,2025-05-26,2025-06-03,Fracture,6213,No
+P067,Lindsey Thomas,29,Male,General Surgery,2025-03-13,2025-03-18,Migraine,26182,Yes
+P068,Richard Chan,38,Male,Pediatrics,2025-06-25,2025-07-03,Cancer,4646,No
+P069,Keith Stewart,64,Female,Orthopedics,2025-02-11,2025-02-23,Cancer,32341,Yes
+P070,Dominic Reeves,15,Male,General Surgery,2025-04-20,2025-05-06,Migraine,3950,No
+P071,Yvette Dickerson,81,Male,Orthopedics,2025-03-30,2025-04-12,Hypertension,5303,No
+P072,Nancy May,58,Female,Pediatrics,2025-04-28,2025-05-11,Migraine,25664,Yes
+P073,William Matthews,15,Female,Cardiology,2025-05-07,2025-05-10,Infection,32690,Yes
+P074,Robin Graves,41,Female,Pediatrics,2025-06-11,2025-06-21,Cancer,22441,Yes
+P075,John Luna,60,Male,Pediatrics,2025-04-24,2025-05-12,Fracture,20147,No
+P076,Stacy Stephens,69,Female,Oncology,2025-01-18,2025-01-21,Fracture,30672,No
+P077,Terry Mcdowell,43,Male,General Surgery,2025-05-06,2025-05-22,Stroke,29695,Yes
+P078,Gabrielle Kelley,23,Male,Neurology,2025-05-03,2025-05-22,Stroke,35817,No
+P079,Sean Bush,72,Male,Cardiology,2025-03-24,2025-04-07,Infection,15945,No
+P080,Joseph Mason,78,Female,General Surgery,2025-03-30,2025-04-11,Hypertension,33037,No
+P081,Tara Moreno,49,Male,Oncology,2025-05-29,2025-06-01,Migraine,29741,No
+P082,Carrie Zimmerman,49,Female,General Surgery,2025-01-20,2025-01-31,Cancer,10746,Yes
+P083,Kimberly Berry,14,Male,General Surgery,2025-07-05,2025-07-12,Infection,5706,Yes
+P084,Leslie Ward,23,Female,Orthopedics,2025-02-10,2025-02-13,Fracture,24457,No
+P085,Matthew Mack,31,Male,Pediatrics,2025-06-30,2025-07-08,Fracture,24136,No
+P086,Angel Rodriguez,81,Male,Neurology,2025-06-13,2025-06-18,Migraine,21497,Yes
+P087,Dawn Moore,82,Female,Orthopedics,2025-03-21,2025-04-04,Stroke,30508,Yes
+P088,Bobby James,41,Female,Pediatrics,2025-06-06,2025-06-17,Hypertension,37496,Yes
+P089,Cory Lewis MD,56,Female,Orthopedics,2025-04-17,2025-04-22,Infection,35372,No
+P090,Anthony Walton,73,Female,General Surgery,2025-06-30,2025-07-14,Hypertension,32953,Yes
+P091,George Rodriguez,25,Female,General Surgery,2025-03-17,2025-04-05,Hypertension,22734,No
+P092,Leslie Fowler,22,Female,Oncology,2025-05-09,2025-05-15,Infection,33078,Yes
+P093,Jacob Wong,81,Male,Cardiology,2025-02-03,2025-02-18,Fracture,9970,Yes
+P094,John Hale,16,Female,General Surgery,2025-03-30,2025-04-19,Migraine,23387,No
+P095,Chris Richardson,79,Male,Neurology,2025-03-22,2025-04-06,Cancer,38279,Yes
+P096,Vincent Bullock,66,Male,Cardiology,2025-04-26,2025-05-11,Cancer,30991,No
+P097,Amy Garrett,85,Male,Orthopedics,2025-03-14,2025-03-31,Stroke,10985,No
+P098,Alexander Moore,20,Female,General Surgery,2025-02-21,2025-03-03,Migraine,38628,No
+P099,Herbert Adkins,22,Female,Neurology,2025-02-15,2025-02-23,Infection,34967,Yes
+P100,Sherry Lindsey,57,Male,Oncology,2025-04-11,2025-04-23,Fracture,4688,Yes

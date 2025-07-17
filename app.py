@@ -1,0 +1,43 @@
+import streamlit as st
+import pandas as pd
+import plotly.express as px
+from sklearn.linear_model import LogisticRegression
+import joblib
+import os
+import joblib
+
+
+
+st.title("🏥 Hospital Management -Predict Disease")
+
+# Upload data
+data = pd.read_excel("hospital_data.xlsx")
+st.sidebar.header("Filters")
+dept = st.sidebar.selectbox("Select Department", data["Department"].unique())
+
+filtered = data[data["Department"] == dept]
+
+st.metric("Total Patients", len(filtered))
+st.metric("Total Revenue", f"${filtered['Billing'].sum():,.0f}")
+
+# Charts
+fig = px.histogram(filtered, x="Age", title="Age Distribution")
+st.plotly_chart(fig)
+
+# ML Prediction Panel
+st.subheader("🔮 Predict Readmission")
+age = st.slider("Age", 0, 100, 50)
+admissions = st.number_input("Previous Admissions", 0, 10, 1)
+bill = st.number_input("Treatment Cost", 0, 50000, 10000)
+
+if os.path.exists("model.pkl"):
+    model = joblib.load("model.pkl")
+else:
+    print("Model file not found.")
+    # Optionally, raise an error or fallback logic
+
+
+if st.button("Predict"):
+    model = joblib.load("model.pkl")  # previously saved
+    pred = model.predict([[age, bill, admissions]])
+    st.success(f"Prediction: {'Readmitted' if pred[0]==1 else 'Not Readmitted'}")
