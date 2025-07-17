@@ -57,5 +57,5 @@ with open("model.pkl", "wb") as f:
 print(model.feature_names)
 
 
-    pred = model.predict([[age, bill, admissions]])
-    st.success(f"Prediction: {'Readmitted' if pred[0]==1 else 'Not Readmitted'}")
+pred = model.predict([[age, bill, admissions]])
+st.success(f"Prediction: {'Readmitted' if pred[0]==1 else 'Not Readmitted'}")
